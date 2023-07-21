@@ -13,7 +13,7 @@ import SinglePost from "./pages/SinglePost";
 
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5001/",
+  uri: "https://social-app11-53c5349ca53d.herokuapp.com/",
 });
 
 const authLink = setContext(()=>{
