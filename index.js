@@ -12,7 +12,7 @@ const server = new ApolloServer({
   resolvers,
   context: ({ req }) => ({ req, pubsub }),
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://social-app11-53c5349ca53d.herokuapp.com/,
     credentials: true,
   },
 });
